@@ -1,7 +1,7 @@
 class Doctor
   @@all = []
 
-  attr_accessor :name
+  attr_accessor :name :patient :date
 
   def self.all
     @@all
