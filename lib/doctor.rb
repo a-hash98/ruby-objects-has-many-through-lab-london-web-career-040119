@@ -16,7 +16,7 @@ class Doctor
     @patient = patient
     @date = date
     Appointment.new(@date,@patient,self)
-    Appointment.all << self
+    #Appointment.all << self
   end
 
   def appointments
